@@ -1,17 +1,16 @@
 
 import './App.css';
-import {Howl, Howler} from "howler"
 import {useState} from "react"
-import {audioClips, RolandR8} from "./AudioArray.js"
-import test from './Audio/Dasani Kit/dasani7.wav'
+import {RolandR8} from "./AudioArray.js"
+
 
 
 function App() {
   const [Volume, setVolume] = useState(0.5);
-  Howler.volume(Volume)
+  const [CurrentSet, setCurrentSet] = useState(RolandR8)
 
   const HandleKeypress = (e) => {
-    for (let obj of RolandR8){
+    for (let obj of CurrentSet){
       if (e.keyCode === obj.trigger){
         SoundPlay(obj.sound)
       }
@@ -19,22 +18,20 @@ function App() {
   };
 
   const SoundPlay = (src) =>{
-    const sound = new Howl({
-      src
-    })
-    sound.play()
-  };
+      
+    };
+  
 
   const RenderButtonAndSound = () =>{
-    return RolandR8.map((soundObj, index) => {
+    return CurrentSet.map((soundObj, index) => {
       return(
         <button className="drum-pad" id={soundObj.label} key={index} onClick={() => SoundPlay(soundObj.sound)}>
-          {soundObj.Button}
+          {soundObj.button}
 
           <audio
             className='clip'
-            id="ddshvc"
-            src={RolandR8[1].sound}
+            id={soundObj.button}
+            src={soundObj.sound}
           />
           
         </button>
@@ -43,7 +40,7 @@ function App() {
   };
   
   return (
-    <div style={{height:"100vh"}}id="drum-machine" onKeyDown={HandleKeypress} tabIndex="0">
+    <div style={{height:"100vh"}} id="drum-machine" onKeyDown={HandleKeypress} tabIndex="0">
       <div id="display">
         {RenderButtonAndSound()}
       </div>

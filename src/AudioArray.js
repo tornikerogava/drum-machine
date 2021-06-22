@@ -1,4 +1,3 @@
-import test from './Audio/Dasani Kit/dasani7.wav'
 import R8HHCl from "./Audio/Roland R-8/R8-Cl-Hi-Hat.wav"
 import R8Clap from "./Audio/Roland R-8/R8-Clap.wav"
 import R8Crash from "./Audio/Roland R-8/R8-Crash.wav"
@@ -10,20 +9,17 @@ import R8Ride from "./Audio/Roland R-8/R8-Ride.wav"
 import R8Snare from "./Audio/Roland R-8/R8-Snare-5.wav"
 
 
- const audioClips = [
-    {sound: test, label: "test", trigger: 13}
-]
 
 const RolandR8 = [
-    {sound:R8Crash, label:"Crash", trigger:81, Button:"Q"},
-    {sound:R8Ride, label:"Ride", trigger:87, Button:"W"},
-    {sound:R8HHOp, label:"Open HH", trigger:69, Button:"E"},
-    {sound:R8HiTom, label:"Hi-Tom", trigger:65, Button:"A"},
-    {sound:R8LowTom, label:"Low-Tom", trigger:83, Button:"S"},
-    {sound:R8HHCl, label:"Closed HH", trigger:68, Button:"D"},
-    {sound:R8Snare, label:"Snare", trigger:90, Button:"Z"},
-    {sound:R8Kick, label:"Kick", trigger:88, Button:"X"},
-    {sound:R8Clap, label:"Clap", trigger:67, Button:"C"}
+    {sound:R8Crash, label:"Crash", trigger:81, button:"Q"},
+    {sound:R8Ride, label:"Ride", trigger:87, button:"W"},
+    {sound:R8HHOp, label:"Open HH", trigger:69, button:"E"},
+    {sound:R8HiTom, label:"Hi-Tom", trigger:65, button:"A"},
+    {sound:R8LowTom, label:"Low-Tom", trigger:83, button:"S"},
+    {sound:R8HHCl, label:"Closed HH", trigger:68, button:"D"},
+    {sound:R8Snare, label:"Snare", trigger:90, button:"Z"},
+    {sound:R8Kick, label:"Kick", trigger:88, button:"X"},
+    {sound:R8Clap, label:"Clap", trigger:67, button:"C"}
 ]
 // const Japanese = [
 //     {sound: ,label:"", trigger: }
@@ -49,6 +45,5 @@ const RolandR8 = [
 // ]
 
 export {
-    audioClips,
     RolandR8
   }
