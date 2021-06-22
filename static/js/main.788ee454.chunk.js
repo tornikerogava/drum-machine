@@ -1,2 +1,0 @@
-(this["webpackJsonpdrum-machine"]=this["webpackJsonpdrum-machine"]||[]).push([[0],{10:function(e,n,t){"use strict";t.r(n);var c=t(1),r=t.n(c),i=t(3),s=t.n(i),a=(t(8),t(0));var o=function(){return Object(a.jsx)(a.Fragment,{})};s.a.render(Object(a.jsx)(r.a.StrictMode,{children:Object(a.jsx)(o,{})}),document.getElementById("root"))},8:function(e,n,t){}},[[10,1,2]]]);
-//# sourceMappingURL=main.788ee454.chunk.js.map

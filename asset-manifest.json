@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/drum-machine/static/css/main.afd7172b.chunk.css",
-    "main.js": "/drum-machine/static/js/main.788ee454.chunk.js",
-    "main.js.map": "/drum-machine/static/js/main.788ee454.chunk.js.map",
+    "main.css": "/drum-machine/static/css/main.aad4f3cb.chunk.css",
+    "main.js": "/drum-machine/static/js/main.7b1d4370.chunk.js",
+    "main.js.map": "/drum-machine/static/js/main.7b1d4370.chunk.js.map",
     "runtime-main.js": "/drum-machine/static/js/runtime-main.a93f74f6.js",
     "runtime-main.js.map": "/drum-machine/static/js/runtime-main.a93f74f6.js.map",
-    "static/js/2.be84363d.chunk.js": "/drum-machine/static/js/2.be84363d.chunk.js",
-    "static/js/2.be84363d.chunk.js.map": "/drum-machine/static/js/2.be84363d.chunk.js.map",
+    "static/js/2.8396335e.chunk.js": "/drum-machine/static/js/2.8396335e.chunk.js",
+    "static/js/2.8396335e.chunk.js.map": "/drum-machine/static/js/2.8396335e.chunk.js.map",
     "index.html": "/drum-machine/index.html",
-    "static/css/main.afd7172b.chunk.css.map": "/drum-machine/static/css/main.afd7172b.chunk.css.map",
-    "static/js/2.be84363d.chunk.js.LICENSE.txt": "/drum-machine/static/js/2.be84363d.chunk.js.LICENSE.txt"
+    "static/css/main.aad4f3cb.chunk.css.map": "/drum-machine/static/css/main.aad4f3cb.chunk.css.map",
+    "static/js/2.8396335e.chunk.js.LICENSE.txt": "/drum-machine/static/js/2.8396335e.chunk.js.LICENSE.txt",
+    "static/media/R8-Cl-Hi-Hat.38a925e4.wav": "/drum-machine/static/media/R8-Cl-Hi-Hat.38a925e4.wav",
+    "static/media/R8-Clap.e8520f81.wav": "/drum-machine/static/media/R8-Clap.e8520f81.wav",
+    "static/media/R8-Crash.cfa3c844.wav": "/drum-machine/static/media/R8-Crash.cfa3c844.wav",
+    "static/media/R8-Hi-Tom.6008caf5.wav": "/drum-machine/static/media/R8-Hi-Tom.6008caf5.wav",
+    "static/media/R8-Kick-2.15015122.wav": "/drum-machine/static/media/R8-Kick-2.15015122.wav",
+    "static/media/R8-Low-Tom.791f6ecd.wav": "/drum-machine/static/media/R8-Low-Tom.791f6ecd.wav",
+    "static/media/R8-Open-Hi-Hat.3bc187bb.wav": "/drum-machine/static/media/R8-Open-Hi-Hat.3bc187bb.wav",
+    "static/media/R8-Ride.38f23c79.wav": "/drum-machine/static/media/R8-Ride.38f23c79.wav",
+    "static/media/R8-Snare-5.b975082a.wav": "/drum-machine/static/media/R8-Snare-5.b975082a.wav"
   },
   "entrypoints": [
     "static/js/runtime-main.a93f74f6.js",
-    "static/js/2.be84363d.chunk.js",
-    "static/css/main.afd7172b.chunk.css",
-    "static/js/main.788ee454.chunk.js"
+    "static/js/2.8396335e.chunk.js",
+    "static/css/main.aad4f3cb.chunk.css",
+    "static/js/main.7b1d4370.chunk.js"
   ]
 }
