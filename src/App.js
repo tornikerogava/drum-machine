@@ -2,7 +2,8 @@
 import './App.css';
 import {Howl, Howler} from "howler"
 import {useState} from "react"
-import audioClips from "./AudioArray.js"
+import {audioClips, RolandR8} from "./AudioArray.js"
+import test from './Audio/Dasani Kit/dasani7.wav'
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
   Howler.volume(Volume)
 
   const HandleKeypress = (e) => {
-    for (let obj of audioClips){
+    for (let obj of RolandR8){
       if (e.keyCode === obj.trigger){
         SoundPlay(obj.sound)
       }
@@ -25,13 +26,18 @@ function App() {
   };
 
   const RenderButtonAndSound = () =>{
-    return audioClips.map((soundObj, index) => {
+    return RolandR8.map((soundObj, index) => {
       return(
-        <div key={index} >
-          <button onClick={() => SoundPlay(soundObj.sound)}>
-            {soundObj.label}
-          </button>
-        </div>
+        <button className="drum-pad" id={soundObj.label} key={index} onClick={() => SoundPlay(soundObj.sound)}>
+          {soundObj.Button}
+
+          <audio
+            className='clip'
+            id="ddshvc"
+            src={RolandR8[1].sound}
+          />
+          
+        </button>
       )
     })
   };
@@ -41,6 +47,7 @@ function App() {
       <div id="display">
         {RenderButtonAndSound()}
       </div>
+    
     </div>
   );
 }
