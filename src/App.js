@@ -1,13 +1,13 @@
 
 import './App.css';
 import {useState, useEffect} from "react"
-import {RolandR8} from "./AudioArray.js"
+import {RolandR8, Japanese} from "./AudioArrays.js"
 
 
 
 function App() {
   const [Volume, setVolume] = useState(0.5);
-  const [CurrentSet, setCurrentSet] = useState(RolandR8)
+  const [CurrentSet, setCurrentSet] = useState(Japanese)
 
   const HandleKeypress = (e) => {
     for (let obj of CurrentSet){
@@ -50,11 +50,11 @@ function App() {
   };
   
   return (
-    <div style={{height:"100vh"}} id="drum-machine" tabIndex="0">
+    <div id="drum-machine" tabIndex="0">
       <div id="display">
         {RenderButtonAndSound()}
       </div>
-    
+      <button onClick={()=> setCurrentSet(CurrentSet===RolandR8? Japanese: Japanese? RolandR8: null)}>Swap</button>  
     </div>
   );
 }
