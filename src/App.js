@@ -1,6 +1,6 @@
 
 import './App.css';
-import {useState} from "react"
+import {useState, useEffect} from "react"
 import {RolandR8} from "./AudioArray.js"
 
 
@@ -12,20 +12,30 @@ function App() {
   const HandleKeypress = (e) => {
     for (let obj of CurrentSet){
       if (e.keyCode === obj.trigger){
-        SoundPlay(obj.sound)
+        SoundPlay(obj)
       }
     }
   };
 
+  useEffect(() => {
+    window.addEventListener('keydown', HandleKeypress);
+
+    return () => {
+      window.removeEventListener('keydown', HandleKeypress);
+    };
+  });
+
   const SoundPlay = (src) =>{
-      
+      const audio = document.getElementById(src.button)
+      audio.currentTime=0;
+      audio.play();
     };
   
 
   const RenderButtonAndSound = () =>{
     return CurrentSet.map((soundObj, index) => {
       return(
-        <button className="drum-pad" id={soundObj.label} key={index} onClick={() => SoundPlay(soundObj.sound)}>
+        <button className="drum-pad" id={soundObj.label} key={index} onClick={() => SoundPlay(soundObj)}>
           {soundObj.button}
 
           <audio
@@ -40,7 +50,7 @@ function App() {
   };
   
   return (
-    <div style={{height:"100vh"}} id="drum-machine" onKeyDown={HandleKeypress} tabIndex="0">
+    <div style={{height:"100vh"}} id="drum-machine" tabIndex="0">
       <div id="display">
         {RenderButtonAndSound()}
       </div>
