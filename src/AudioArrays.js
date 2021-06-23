@@ -18,6 +18,16 @@ import OkedoA2 from "./Audio/Japanese Drums/okedo-A2.wav"
 import OkedoB1 from "./Audio/Japanese Drums/okedo-B1.wav"
 import SmallTaiko from "./Audio/Japanese Drums/taiko_3.wav"
 
+import Blart from "./Audio/Atomhard Electro FX/bandpass-blart.wav"
+import Crackle from "./Audio/Atomhard Electro FX/cracklykick2.wav"
+import Bass from "./Audio/Atomhard Electro FX/cracklykick3.wav"
+import Pling from "./Audio/Atomhard Electro FX/electro-pling1.wav"
+import Plang from "./Audio/Atomhard Electro FX/electro-pling2.wav"
+import Glissup from "./Audio/Atomhard Electro FX/glissup.wav"
+import Laser from "./Audio/Atomhard Electro FX/laser-powered-spitwad.wav"
+import Zap from "./Audio/Atomhard Electro FX/quickkickzap.wav"
+import UFO from "./Audio/Atomhard Electro FX/ufokick.wav"
+
 
 const RolandR8 = [
     {sound:R8Crash, label:"Crash", trigger:81, button:"Q"},
@@ -41,19 +51,20 @@ const Japanese = [
     {sound:MedTaiko, label:"Med Taiko", trigger:88, button:"X"},
     {sound:SmallTaiko, label:"Small Taiko", trigger:67, button:"C"}
 ]
-// const AtomHard = [
-//     {sound: ,label:"", trigger: }
-//     {sound: ,label:"", trigger: }
-//     {sound: ,label:"", trigger: }
-//     {sound: ,label:"", trigger: }
-//     {sound: ,label:"", trigger: }
-//     {sound: ,label:"", trigger: }
-//     {sound: ,label:"", trigger: }
-//     {sound: ,label:"", trigger: }
-//     {sound: ,label:"", trigger: }
-// ]
+const AtomHard = [
+    {sound:Pling, label:"Pling", trigger:81, button:"Q"},
+    {sound:Plang, label:"Plang", trigger:87, button:"W"},
+    {sound:Blart, label:"Blart", trigger:69, button:"E"},
+    {sound:Glissup, label:"Glissup", trigger:65, button:"A"},
+    {sound:Laser, label:"Laser", trigger:83, button:"S"},
+    {sound:UFO, label:"UFO", trigger:68, button:"D"},
+    {sound:Crackle, label:"Crackle", trigger:90, button:"Z"},
+    {sound:Bass, label:"Bass", trigger:88, button:"X"},
+    {sound:Zap, label:"Zap", trigger:67, button:"C"}
+]
 
 export {
     RolandR8,
-    Japanese
+    Japanese,
+    AtomHard
   }
