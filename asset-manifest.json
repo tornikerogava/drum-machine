@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/drum-machine/static/css/main.aad4f3cb.chunk.css",
-    "main.js": "/drum-machine/static/js/main.e9dd0e8c.chunk.js",
-    "main.js.map": "/drum-machine/static/js/main.e9dd0e8c.chunk.js.map",
+    "main.css": "/drum-machine/static/css/main.72fbfd74.chunk.css",
+    "main.js": "/drum-machine/static/js/main.2dfc71b1.chunk.js",
+    "main.js.map": "/drum-machine/static/js/main.2dfc71b1.chunk.js.map",
     "runtime-main.js": "/drum-machine/static/js/runtime-main.a93f74f6.js",
     "runtime-main.js.map": "/drum-machine/static/js/runtime-main.a93f74f6.js.map",
-    "static/js/2.8396335e.chunk.js": "/drum-machine/static/js/2.8396335e.chunk.js",
-    "static/js/2.8396335e.chunk.js.map": "/drum-machine/static/js/2.8396335e.chunk.js.map",
+    "static/js/2.a9b199a5.chunk.js": "/drum-machine/static/js/2.a9b199a5.chunk.js",
+    "static/js/2.a9b199a5.chunk.js.map": "/drum-machine/static/js/2.a9b199a5.chunk.js.map",
     "index.html": "/drum-machine/index.html",
-    "static/css/main.aad4f3cb.chunk.css.map": "/drum-machine/static/css/main.aad4f3cb.chunk.css.map",
-    "static/js/2.8396335e.chunk.js.LICENSE.txt": "/drum-machine/static/js/2.8396335e.chunk.js.LICENSE.txt",
+    "static/css/main.72fbfd74.chunk.css.map": "/drum-machine/static/css/main.72fbfd74.chunk.css.map",
+    "static/js/2.a9b199a5.chunk.js.LICENSE.txt": "/drum-machine/static/js/2.a9b199a5.chunk.js.LICENSE.txt",
     "static/media/R8-Cl-Hi-Hat.38a925e4.wav": "/drum-machine/static/media/R8-Cl-Hi-Hat.38a925e4.wav",
     "static/media/R8-Clap.e8520f81.wav": "/drum-machine/static/media/R8-Clap.e8520f81.wav",
     "static/media/R8-Crash.cfa3c844.wav": "/drum-machine/static/media/R8-Crash.cfa3c844.wav",
@@ -19,7 +19,14 @@
     "static/media/R8-Open-Hi-Hat.3bc187bb.wav": "/drum-machine/static/media/R8-Open-Hi-Hat.3bc187bb.wav",
     "static/media/R8-Ride.38f23c79.wav": "/drum-machine/static/media/R8-Ride.38f23c79.wav",
     "static/media/R8-Snare-5.b975082a.wav": "/drum-machine/static/media/R8-Snare-5.b975082a.wav",
+    "static/media/bandpass-blart.a42d4412.wav": "/drum-machine/static/media/bandpass-blart.a42d4412.wav",
     "static/media/big_taiko.7d3bb6ca.wav": "/drum-machine/static/media/big_taiko.7d3bb6ca.wav",
+    "static/media/cracklykick2.f43267f7.wav": "/drum-machine/static/media/cracklykick2.f43267f7.wav",
+    "static/media/cracklykick3.db05c973.wav": "/drum-machine/static/media/cracklykick3.db05c973.wav",
+    "static/media/electro-pling1.c20d1eb1.wav": "/drum-machine/static/media/electro-pling1.c20d1eb1.wav",
+    "static/media/electro-pling2.18601dc2.wav": "/drum-machine/static/media/electro-pling2.18601dc2.wav",
+    "static/media/glissup.142814df.wav": "/drum-machine/static/media/glissup.142814df.wav",
+    "static/media/laser-powered-spitwad.4a9753bb.wav": "/drum-machine/static/media/laser-powered-spitwad.4a9753bb.wav",
     "static/media/med_taiko.082efa99.wav": "/drum-machine/static/media/med_taiko.082efa99.wav",
     "static/media/mokusho-A1.32c9074b.wav": "/drum-machine/static/media/mokusho-A1.32c9074b.wav",
     "static/media/nipon_cymbal_2.9da50229.wav": "/drum-machine/static/media/nipon_cymbal_2.9da50229.wav",
@@ -27,12 +34,14 @@
     "static/media/ohkawa_open.3433aa8f.wav": "/drum-machine/static/media/ohkawa_open.3433aa8f.wav",
     "static/media/okedo-A2.b6daa4bf.wav": "/drum-machine/static/media/okedo-A2.b6daa4bf.wav",
     "static/media/okedo-B1.42021fe8.wav": "/drum-machine/static/media/okedo-B1.42021fe8.wav",
-    "static/media/taiko_3.79632388.wav": "/drum-machine/static/media/taiko_3.79632388.wav"
+    "static/media/quickkickzap.ab5340f8.wav": "/drum-machine/static/media/quickkickzap.ab5340f8.wav",
+    "static/media/taiko_3.79632388.wav": "/drum-machine/static/media/taiko_3.79632388.wav",
+    "static/media/ufokick.0b66ab07.wav": "/drum-machine/static/media/ufokick.0b66ab07.wav"
   },
   "entrypoints": [
     "static/js/runtime-main.a93f74f6.js",
-    "static/js/2.8396335e.chunk.js",
-    "static/css/main.aad4f3cb.chunk.css",
-    "static/js/main.e9dd0e8c.chunk.js"
+    "static/js/2.a9b199a5.chunk.js",
+    "static/css/main.72fbfd74.chunk.css",
+    "static/js/main.2dfc71b1.chunk.js"
   ]
 }
