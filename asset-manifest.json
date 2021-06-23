@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/drum-machine/static/css/main.aad4f3cb.chunk.css",
-    "main.js": "/drum-machine/static/js/main.18301195.chunk.js",
-    "main.js.map": "/drum-machine/static/js/main.18301195.chunk.js.map",
+    "main.js": "/drum-machine/static/js/main.e9dd0e8c.chunk.js",
+    "main.js.map": "/drum-machine/static/js/main.e9dd0e8c.chunk.js.map",
     "runtime-main.js": "/drum-machine/static/js/runtime-main.a93f74f6.js",
     "runtime-main.js.map": "/drum-machine/static/js/runtime-main.a93f74f6.js.map",
     "static/js/2.8396335e.chunk.js": "/drum-machine/static/js/2.8396335e.chunk.js",
@@ -18,12 +18,21 @@
     "static/media/R8-Low-Tom.791f6ecd.wav": "/drum-machine/static/media/R8-Low-Tom.791f6ecd.wav",
     "static/media/R8-Open-Hi-Hat.3bc187bb.wav": "/drum-machine/static/media/R8-Open-Hi-Hat.3bc187bb.wav",
     "static/media/R8-Ride.38f23c79.wav": "/drum-machine/static/media/R8-Ride.38f23c79.wav",
-    "static/media/R8-Snare-5.b975082a.wav": "/drum-machine/static/media/R8-Snare-5.b975082a.wav"
+    "static/media/R8-Snare-5.b975082a.wav": "/drum-machine/static/media/R8-Snare-5.b975082a.wav",
+    "static/media/big_taiko.7d3bb6ca.wav": "/drum-machine/static/media/big_taiko.7d3bb6ca.wav",
+    "static/media/med_taiko.082efa99.wav": "/drum-machine/static/media/med_taiko.082efa99.wav",
+    "static/media/mokusho-A1.32c9074b.wav": "/drum-machine/static/media/mokusho-A1.32c9074b.wav",
+    "static/media/nipon_cymbal_2.9da50229.wav": "/drum-machine/static/media/nipon_cymbal_2.9da50229.wav",
+    "static/media/ohkawa_mute.bc64307a.wav": "/drum-machine/static/media/ohkawa_mute.bc64307a.wav",
+    "static/media/ohkawa_open.3433aa8f.wav": "/drum-machine/static/media/ohkawa_open.3433aa8f.wav",
+    "static/media/okedo-A2.b6daa4bf.wav": "/drum-machine/static/media/okedo-A2.b6daa4bf.wav",
+    "static/media/okedo-B1.42021fe8.wav": "/drum-machine/static/media/okedo-B1.42021fe8.wav",
+    "static/media/taiko_3.79632388.wav": "/drum-machine/static/media/taiko_3.79632388.wav"
   },
   "entrypoints": [
     "static/js/runtime-main.a93f74f6.js",
     "static/js/2.8396335e.chunk.js",
     "static/css/main.aad4f3cb.chunk.css",
-    "static/js/main.18301195.chunk.js"
+    "static/js/main.e9dd0e8c.chunk.js"
   ]
 }
