@@ -1,6 +1,6 @@
 body,
 html {
-  color: #e9efff;
+  color: #010101;
   margin: 0;
   padding: 0;
   font-weight: 400;
@@ -18,19 +18,19 @@ input:focus {
   align-items: center;
   height: 100vh;
   background-image: linear-gradient(
-    to left bottom,
-    #8c84cf,
-    #8986cf,
-    #8789ce,
-    #858bce,
-    #838dcd,
-    #7994d1,
-    #6f9bd3,
-    #68a1d3,
-    #5cacd2,
-    #5cb6cd,
-    #67bec6,
-    #79c5be
+    to right top,
+    #73926c,
+    #869c77,
+    #99a782,
+    #abb28f,
+    #bcbd9d,
+    #c3c098,
+    #ccc393,
+    #d6c68e,
+    #dac073,
+    #e0b957,
+    #e6b239,
+    #eda909
   );
 }
 
@@ -45,7 +45,7 @@ input:focus {
   width: 35vw;
   padding: 20px;
   border-radius: 10px;
-  background-color: #4c5e96;
+  background-color: #f2fedc;
 }
 
 /*left side*/
@@ -66,7 +66,7 @@ input:focus {
 
 .drum-pad {
   height: 100%;
-  background-color: #5cb6cd;
+  background-color: #e6b239;
   border-radius: 10px;
 }
 
@@ -85,12 +85,12 @@ input:focus {
 }
 
 #kit-buttons > button {
-  background-color: #5cb6cd;
+  background-color: #e6b239;
   border-radius: 5px;
   padding: 5%;
 }
 #display {
-  background-color: #e9efff;
+  background-color: #99a782;
   color: #010101;
   height: 10%;
   border-radius: 5px;
@@ -124,7 +124,7 @@ input:focus {
   height: 24px;
   width: 12px;
   border-radius: 3px;
-  background: #79c5be;
+  background: #e6b239;
   cursor: pointer;
   margin-top: -9px;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
@@ -136,7 +136,7 @@ input:focus {
   height: 24px;
   width: 12px;
   border-radius: 3px;
-  background: #79c5be;
+  background: #e6b239;
   cursor: pointer;
 }
 
@@ -146,7 +146,7 @@ input:focus {
   height: 24px;
   width: 12px;
   border-radius: 3px;
-  background: #79c5be;
+  background: #e6b239;
   cursor: pointer;
 }
 
@@ -155,7 +155,7 @@ input:focus {
   height: 8.4px;
   cursor: pointer;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  background: #e9efff;
+  background: #99a782;
   border-radius: 1.3px;
   border: 0.2px solid #010101;
 }
@@ -165,7 +165,7 @@ input:focus {
   height: 8.4px;
   cursor: pointer;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  background: #e9efff;
+  background: #99a782;
   border-radius: 1.3px;
   border: 0.2px solid #010101;
 }
@@ -180,14 +180,14 @@ input:focus {
   color: transparent;
 }
 #volume-slider::-ms-fill-lower {
-  background: #e9efff;
+  background: #99a782;
   border: 0.2px solid #010101;
   border-radius: 2.6px;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
 }
 
 #volume-slider::-ms-fill-upper {
-  background: #e9efff;
+  background: #99a782;
   border: 0.2px solid #010101;
   border-radius: 2.6px;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
