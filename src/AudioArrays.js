@@ -43,10 +43,10 @@ const RolandR8 = [
 const Japanese = [
     {sound:Cymbal, label:"Cymbal", trigger:81, button:"Q"},
     {sound:Mokusho, label:"Mokusho", trigger:87, button:"W"},
-    {sound:OhkawaMute, label:"Ohkawa Mute", trigger:69, button:"E"},
+    {sound:OhkawaMute, label:"Ohkawa M", trigger:69, button:"E"},
     {sound:OkedoA2, label:"Okedo A2", trigger:65, button:"A"},
     {sound:OkedoB1, label:"Okedo B1", trigger:83, button:"S"},
-    {sound:OhkawaOpen, label:"Ohkawa Open", trigger:68, button:"D"},
+    {sound:OhkawaOpen, label:"Ohkawa O", trigger:68, button:"D"},
     {sound:BigTaiko, label:"Big Taiko", trigger:90, button:"Z"},
     {sound:MedTaiko, label:"Med Taiko", trigger:88, button:"X"},
     {sound:SmallTaiko, label:"Small Taiko", trigger:67, button:"C"}
